@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "02e525d3_46e5e2eb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-16T11:38:21Z",
+      "side": 1,
+      "message": "не возможно понять о чем этот комит не открывая изменения.\nнет номера тикета.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 29
+      },
+      "revId": "b55b59c9c7286410eec8aad30ff0498bb11a6c60",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5733e6b3_1e83f601",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-16T11:38:21Z",
+      "side": 1,
+      "message": "critical. метод translate превращается в очень долгий метод, который внутри делает 5 дополнительных не всегда нужных запросов.\n\nимхо нам нужно сделать все эти методы публичными и дергать в клиенте.",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 62
+      },
+      "revId": "b55b59c9c7286410eec8aad30ff0498bb11a6c60",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f867b08a_367160cb",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-16T11:38:21Z",
+      "side": 1,
+      "message": "смысл в комете?",
+      "range": {
+        "startLine": 88,
+        "startChar": 2,
+        "endLine": 88,
+        "endChar": 25
+      },
+      "revId": "b55b59c9c7286410eec8aad30ff0498bb11a6c60",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a9265682_04b7b49c",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-16T11:38:21Z",
+      "side": 1,
+      "message": "форматирование поехало из-за лишней запятой",
+      "range": {
+        "startLine": 92,
+        "startChar": 13,
+        "endLine": 92,
+        "endChar": 14
+      },
+      "revId": "b55b59c9c7286410eec8aad30ff0498bb11a6c60",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a071ec1e_73e38559",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-16T11:38:21Z",
+      "side": 1,
+      "message": "critical. здесь и далее разница только в этом параметре и логики вычленении результатов.\n\nкопипаст делается 4 раза, почему бы не выделить общий код? тогда бы в методах было только то что важно для этого конкретного метода.",
+      "range": {
+        "startLine": 99,
+        "startChar": 6,
+        "endLine": 99,
+        "endChar": 16
+      },
+      "revId": "b55b59c9c7286410eec8aad30ff0498bb11a6c60",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
