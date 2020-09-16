@@ -50,4 +50,18 @@ void main() {
     expect(b, false);
     expect(b2, true);
   });
+
+  test('Examples', () async {
+    var translator = GoogleTranslator();
+    var t = await translator.getExamples('tree', to: 'ru');
+    expect(t.examples, ['pear tree']);
+  });
+
+  test('Definitions', () async {
+    var translator = GoogleTranslator();
+    var t = await translator.getDefinition('mom', to: 'ru');
+    expect(t.definitions, {
+      'имя существительное': ['one\'s mother.']
+    });
+  });
 }
