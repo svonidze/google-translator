@@ -6,9 +6,10 @@ abstract class Translation {
   final String source;
   final Language targetLanguage;
   final Language sourceLanguage;
+  final List alternative;
 
-  Translation._(
-      this.text, this.source, this.sourceLanguage, this.targetLanguage);
+  Translation._(this.text, this.source, this.sourceLanguage,
+      this.targetLanguage, this.alternative);
 
   String operator +(other);
 
@@ -21,13 +22,15 @@ class _Translation extends Translation {
   final String source;
   final Language sourceLanguage;
   final Language targetLanguage;
+  final List alternative;
 
   _Translation(
     this.text, {
     this.sourceLanguage,
     this.targetLanguage,
     this.source,
-  }) : super._(text, source, sourceLanguage, targetLanguage);
+    this.alternative,
+  }) : super._(text, source, sourceLanguage, targetLanguage, alternative);
 
   String operator +(other) => this.toString() + other.toString();
 }
