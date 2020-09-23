@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b542af77_19c466cd",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-23T13:03:11Z",
+      "side": 1,
+      "message": "Стоит соблюдать порядок методов по доступности: сначала идут публичные затем приватные, в противном случае получается каша из АПИ методов и вспомогательных",
+      "revId": "bc55f533e5d4567957e51d7334f8b24f98102325",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8e882039_31433053",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-23T13:03:11Z",
+      "side": 1,
+      "message": "Если возможно то стоит подобрать более понятный синоним.\nНапример dataType?",
+      "range": {
+        "startLine": 29,
+        "startChar": 38,
+        "endLine": 29,
+        "endChar": 40
+      },
+      "revId": "bc55f533e5d4567957e51d7334f8b24f98102325",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3e589a4b_ad6a2438",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-23T13:03:11Z",
+      "side": 1,
+      "message": "Гугл, такой Гугл. Есть возможность проанализировать и дать имена каким либо индексам? Другими словами убрать \"магические цифры\".\n\nТаких мест несколько в этом файле, мое замечание применимо здесь и далее по коду.",
+      "range": {
+        "startLine": 91,
+        "startChar": 35,
+        "endLine": 91,
+        "endChar": 50
+      },
+      "revId": "bc55f533e5d4567957e51d7334f8b24f98102325",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c6ca5207_569ba0b9",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-23T13:03:11Z",
+      "side": 1,
+      "message": "Видел этот код выше, стоит вынести в отдельный метод и переиспользовать.",
+      "range": {
+        "startLine": 110,
+        "startChar": 4,
+        "endLine": 114,
+        "endChar": 5
+      },
+      "revId": "bc55f533e5d4567957e51d7334f8b24f98102325",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "403f29af_f5e29645",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-23T13:03:11Z",
+      "side": 1,
+      "message": "Я бы объединил это условие с условием на строке 131.\n\nТаких мест несколько в этом файле, мое замечание применимо здесь и далее по коду.",
+      "range": {
+        "startLine": 128,
+        "startChar": 8,
+        "endLine": 128,
+        "endChar": 28
+      },
+      "revId": "bc55f533e5d4567957e51d7334f8b24f98102325",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "554dc672_842e27f2",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-23T13:03:11Z",
+      "side": 1,
+      "message": "В таких случаях стоит писать в дебаг/принт что произошло.\n\nТаких мест несколько в этом файле, мое замечание применимо здесь и далее по коду.",
+      "range": {
+        "startLine": 129,
+        "startChar": 6,
+        "endLine": 129,
+        "endChar": 18
+      },
+      "revId": "bc55f533e5d4567957e51d7334f8b24f98102325",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce20665d_6c95f220",
+        "filename": "lib/src/model/definition.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-23T13:03:11Z",
+      "side": 1,
+      "message": "Зачем этот класс? Почему не использовать Definition как есть?",
+      "range": {
+        "startLine": 13,
+        "startChar": 6,
+        "endLine": 13,
+        "endChar": 17
+      },
+      "revId": "bc55f533e5d4567957e51d7334f8b24f98102325",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
