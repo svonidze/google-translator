@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "75891d19_84dfb8f3",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-24T15:40:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ad06a66c_2424150f",
+      "range": {
+        "startLine": 43,
+        "startChar": 4,
+        "endLine": 43,
+        "endChar": 27
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5896fa92_b3bcb689",
         "filename": "lib/src/google_translator.dart",
         "patchSetId": 3
@@ -45,6 +69,30 @@
       "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e8409d0f_79cd6ec9",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-24T15:40:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5896fa92_b3bcb689",
+      "range": {
+        "startLine": 46,
+        "startChar": 6,
+        "endLine": 46,
+        "endChar": 50
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "374c4829_b23f3bdd",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-24T15:40:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d6195646_8a3297f6",
+      "range": {
+        "startLine": 47,
+        "startChar": 24,
+        "endLine": 47,
+        "endChar": 44
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a4bdb0ab_e807e3de",
         "filename": "lib/src/google_translator.dart",
         "patchSetId": 3
@@ -88,6 +160,24 @@
     },
     {
       "key": {
+        "uuid": "4e728304_830787f7",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-24T15:40:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4bdb0ab_e807e3de",
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "575e65eb_0b441bbb",
         "filename": "lib/src/google_translator.dart",
         "patchSetId": 3
@@ -99,6 +189,30 @@
       "writtenOn": "2020-09-24T12:02:34Z",
       "side": 1,
       "message": "to think. нужно ли нам при каждом вызове генерить новый токен?\nмб достаточно сгенерить его один раз для GoogleTranslator?\n\nэто не руководство к действию",
+      "range": {
+        "startLine": 169,
+        "startChar": 12,
+        "endLine": 169,
+        "endChar": 52
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "41f036f6_90e32ae7",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-24T15:40:56Z",
+      "side": 1,
+      "message": "А как это можно сделать?",
+      "parentUuid": "575e65eb_0b441bbb",
       "range": {
         "startLine": 169,
         "startChar": 12,
@@ -131,6 +245,30 @@
       "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b2acf149_70ab798a",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-24T15:40:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6acfa729_239d58dd",
+      "range": {
+        "startLine": 178,
+        "startChar": 4,
+        "endLine": 178,
+        "endChar": 12
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
