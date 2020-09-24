@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ad06a66c_2424150f",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-24T12:02:34Z",
+      "side": 1,
+      "message": "почему ты все таки объединяешь translate и altTranslate в один метод?\n\nесли бы они были разделены то клиент мог параллелить их вызовы.",
+      "range": {
+        "startLine": 43,
+        "startChar": 4,
+        "endLine": 43,
+        "endChar": 27
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5896fa92_b3bcb689",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-24T12:02:34Z",
+      "side": 1,
+      "message": "refactoring. здесь и вокруг я предлагаю заюзать более лаконичный синатксис\n  \nfor(final item in jsonDataAlt[5][0][2])",
+      "range": {
+        "startLine": 46,
+        "startChar": 6,
+        "endLine": 46,
+        "endChar": 50
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d6195646_8a3297f6",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-24T12:02:34Z",
+      "side": 1,
+      "message": "common sense. ты объявил correctData но не используешь здесь.\n\nэто просто замечание, оно будет не актуально если будешь использовать цикл\n  \nfor(final item in ...",
+      "range": {
+        "startLine": 47,
+        "startChar": 24,
+        "endLine": 47,
+        "endChar": 44
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a4bdb0ab_e807e3de",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-24T12:02:34Z",
+      "side": 1,
+      "message": "common sense. лучше эту строчку мувнуть поближе к логике формирования sb, а так получается разрыв контекста",
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "575e65eb_0b441bbb",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-24T12:02:34Z",
+      "side": 1,
+      "message": "to think. нужно ли нам при каждом вызове генерить новый токен?\nмб достаточно сгенерить его один раз для GoogleTranslator?\n\nэто не руководство к действию",
+      "range": {
+        "startLine": 169,
+        "startChar": 12,
+        "endLine": 169,
+        "endChar": 52
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6acfa729_239d58dd",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-24T12:02:34Z",
+      "side": 1,
+      "message": "refactoring. здесь и вокруг. т.к. ты выше делал throw (что прекращает исполнение так же как и return) то здесь else можно не писать",
+      "range": {
+        "startLine": 178,
+        "startChar": 4,
+        "endLine": 178,
+        "endChar": 12
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9e310cc8_d8c14630",
+        "filename": "lib/src/model/translation.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-24T12:02:34Z",
+      "side": 1,
+      "message": "common sense. явное лучше неявного\nесли ты знаешь список чего то лучше так и написать.\nя предполагаю List\u003cString\u003e?",
+      "range": {
+        "startLine": 9,
+        "startChar": 8,
+        "endLine": 9,
+        "endChar": 12
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
