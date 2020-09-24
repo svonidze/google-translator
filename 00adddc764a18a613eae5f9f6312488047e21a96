@@ -225,6 +225,30 @@
     },
     {
       "key": {
+        "uuid": "16c82de3_cf50fa77",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 3
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-09-24T16:22:40Z",
+      "side": 1,
+      "message": "\u003e А как это можно сделать?\n\nпропустил, что generateToken зависим от sourceText, так что никак. снимаю свой вопрос.",
+      "parentUuid": "41f036f6_90e32ae7",
+      "range": {
+        "startLine": 169,
+        "startChar": 12,
+        "endLine": 169,
+        "endChar": 52
+      },
+      "revId": "00adddc764a18a613eae5f9f6312488047e21a96",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6acfa729_239d58dd",
         "filename": "lib/src/google_translator.dart",
         "patchSetId": 3
