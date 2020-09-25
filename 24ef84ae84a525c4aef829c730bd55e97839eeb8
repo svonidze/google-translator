@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "d3697f77_117647ff",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-25T10:01:48Z",
+      "side": 1,
+      "message": "хорошая идея!",
+      "parentUuid": "bf7c9295_c4a554d5",
+      "range": {
+        "startLine": 51,
+        "startChar": 4,
+        "endLine": 51,
+        "endChar": 43
+      },
+      "revId": "24ef84ae84a525c4aef829c730bd55e97839eeb8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1cd08a55_25d6b284",
         "filename": "lib/src/google_translator.dart",
         "patchSetId": 4
@@ -45,6 +69,30 @@
       "revId": "24ef84ae84a525c4aef829c730bd55e97839eeb8",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "38ed2c1e_6a25cde4",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 4
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-25T10:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1cd08a55_25d6b284",
+      "range": {
+        "startLine": 66,
+        "startChar": 4,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "24ef84ae84a525c4aef829c730bd55e97839eeb8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "103a8504_cb640705",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-25T10:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6bcce25e_9f8c4532",
+      "range": {
+        "startLine": 67,
+        "startChar": 6,
+        "endLine": 67,
+        "endChar": 53
+      },
+      "revId": "24ef84ae84a525c4aef829c730bd55e97839eeb8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f454b2ed_d6abdd5a",
         "filename": "lib/src/google_translator.dart",
         "patchSetId": 4
@@ -91,6 +163,30 @@
       "revId": "24ef84ae84a525c4aef829c730bd55e97839eeb8",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c1dd7b01_20c18c0b",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-25T10:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f454b2ed_d6abdd5a",
+      "range": {
+        "startLine": 112,
+        "startChar": 4,
+        "endLine": 112,
+        "endChar": 12
+      },
+      "revId": "24ef84ae84a525c4aef829c730bd55e97839eeb8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     },
     {
       "key": {
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "3ce5d942_c00181d1",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 4
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-25T10:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88d7c324_bbfc1f0e",
+      "range": {
+        "startLine": 139,
+        "startChar": 4,
+        "endLine": 139,
+        "endChar": 12
+      },
+      "revId": "24ef84ae84a525c4aef829c730bd55e97839eeb8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7bbc6478_62ee967c",
         "filename": "lib/src/google_translator.dart",
         "patchSetId": 4
@@ -137,6 +257,30 @@
       "revId": "24ef84ae84a525c4aef829c730bd55e97839eeb8",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b25bc53a_90100a08",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 4
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-09-25T10:01:48Z",
+      "side": 1,
+      "message": "я вроде как пытался, насколько помню он их просто не убирал почему-то",
+      "parentUuid": "7bbc6478_62ee967c",
+      "range": {
+        "startLine": 144,
+        "startChar": 19,
+        "endLine": 144,
+        "endChar": 66
+      },
+      "revId": "24ef84ae84a525c4aef829c730bd55e97839eeb8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
