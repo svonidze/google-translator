@@ -22,6 +22,7 @@ part 'http_response_data.dart';
 class GoogleTranslator {
   var _baseUrl = 'translate.googleapis.com'; // faster than translate.google.com
   final _path = '/translate_a/single';
+  final _pronouncePath = '/translate_tts';
   final _tokenProvider = GoogleTokenGenerator();
   final _languageList = LanguageList();
   final ClientType client;
@@ -162,6 +163,24 @@ class GoogleTranslator {
       sourceLanguage: _languageList[from],
       targetLanguage: _languageList[to],
     );
+  }
+
+  String getPronunciationUrl(String sourceText,
+      {String from = 'auto', String to = 'en'}) {
+    final Map<String, String> parameters = {
+      'ie': 'UTF-8',
+      'q': sourceText,
+      'tl': to,
+      'total': '1',
+      'idx': '0',
+      'textlen': '${sourceText.length}',
+      'tk': _tokenProvider.generateToken(sourceText),
+      'client': client == ClientType.siteGT ? 't' : 'gtx',
+      'hint': from,
+    };
+
+    final url = Uri.https(_baseUrl, _pronouncePath, parameters);
+    return url.toString();
   }
 
   /// Translates and prints directly
