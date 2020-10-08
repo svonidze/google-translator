@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "2122220d_932455a2",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-10-08T10:56:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c0d2ee0_ebbed923",
+      "revId": "32a638a911032d1dd813a3683648d50d4ce27a4d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "078f7d33_606eb482",
         "filename": "lib/src/google_translator.dart",
         "patchSetId": 1
@@ -39,6 +57,30 @@
       "revId": "32a638a911032d1dd813a3683648d50d4ce27a4d",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0069950b_b1e86c65",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1018209
+      },
+      "writtenOn": "2020-10-08T10:56:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "078f7d33_606eb482",
+      "range": {
+        "startLine": 197,
+        "startChar": 4,
+        "endLine": 203,
+        "endChar": 44
+      },
+      "revId": "32a638a911032d1dd813a3683648d50d4ce27a4d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
