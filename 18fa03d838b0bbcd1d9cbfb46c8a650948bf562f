@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b6f10dde_cb5df0c7",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-10-08T11:58:18Z",
+      "side": 1,
+      "message": "такая проверка до конца не верна с точки зрения логики, передав сюда dataType \u003d \u0027some value\u0027 логика пойдет в else, что не ожидается.\nимхо так мы покроем все кейсы\n  \nif (dataType \u003d\u003d null) {...}\nelse if(_dataTypes.any((element) \u003d\u003e element \u003d\u003d dataType)) {...}\nelse { throw... }",
+      "revId": "18fa03d838b0bbcd1d9cbfb46c8a650948bf562f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e09663af_460c6b3b",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-10-08T11:58:18Z",
+      "side": 1,
+      "message": "имхо нет смысла плодить переменные, parameters следует заинлайнить (inlined)\n  \n// переименовать commonParams -\u003e parameters\nparameters.addEntries({\n        \u0027sl\u0027: from,\n        \u0027hl\u0027: to,\n        \u0027dt\u0027: dataType,\n        ...\n      });\n\nв этом случае return может быть один, а не в каждом if-else",
+      "revId": "18fa03d838b0bbcd1d9cbfb46c8a650948bf562f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
