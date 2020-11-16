@@ -2,16 +2,24 @@ library google_transl;
 
 import 'dart:async';
 import 'dart:convert' show jsonDecode;
+
 import 'package:http/http.dart' as http;
-import './tokens/google_token_gen.dart';
+
 import './langs/language.dart';
+import './tokens/google_token_gen.dart';
+
+part './model/alternative_translation.dart';
+
+part './model/definition.dart';
+
+part './model/example.dart';
+
+part './model/synonym.dart';
 
 part './model/translation.dart';
-part './model/definition.dart';
-part './model/synonym.dart';
-part './model/example.dart';
-part './model/alternative_translation.dart';
+
 part 'exception.dart';
+
 part 'http_response_data.dart';
 
 ///
@@ -57,11 +65,11 @@ class GoogleTranslator {
 
     final jsonData = httpResponseData.jsonData;
 
-    final indexedData = jsonData[5][0][2];
-
-    if (indexedData == null) {
+    if (jsonData.length < 5 || jsonData[5] == null) {
       _throwException(5, httpResponseData);
     }
+
+    final indexedData = jsonData[5][0][2];
 
     final List<String> words = [];
 
