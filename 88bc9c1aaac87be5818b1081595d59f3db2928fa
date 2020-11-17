@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8bd93215_795995ce",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-11-17T18:15:43Z",
+      "side": 1,
+      "message": "haha Gabriel не примет такой патч 😂",
+      "range": {
+        "startLine": 23,
+        "startChar": 33,
+        "endLine": 23,
+        "endChar": 57
+      },
+      "revId": "88bc9c1aaac87be5818b1081595d59f3db2928fa",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3a218e4f_4f28c2ee",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-11-17T18:15:43Z",
+      "side": 1,
+      "message": "refactoring. хорошая задумка, могу посоветовать сделать ее еще лучше \nкак минимум я бы перенес эту повторяющуюся часть\n  \nString message \u003d \"Wrong HTTP response\";\n...\nmessage +\u003d \"on alternative translations request\";\n\nкак максимум сделал бы словарь\n  \nenum RequestType {alternativeTranslation, synonym, definition ...}\nfinal map \u003d {\n  RequestType.alternativeTranslation: 99,\n  RequestType.synonym: 88,\n};\n\nи плотно бы использовал енам и этот словарь.\n  \nfinal indexedData \u003d jsonData[map[RequestType.synonym]];\n...\n_throwException(RequestType requestType...) {\n  String message \u003d \"Wrong HTTP response on $requestType request\";\n}",
+      "range": {
+        "startLine": 286,
+        "startChar": 19,
+        "endLine": 286,
+        "endChar": 38
+      },
+      "revId": "88bc9c1aaac87be5818b1081595d59f3db2928fa",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
