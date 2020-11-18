@@ -97,6 +97,30 @@
     },
     {
       "key": {
+        "uuid": "b68742be_e4478a72",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1018339
+      },
+      "writtenOn": "2020-11-18T19:07:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a6244b83_c7bb128c",
+      "range": {
+        "startLine": 7,
+        "startChar": 10,
+        "endLine": 7,
+        "endChar": 31
+      },
+      "revId": "88bc9c1aaac87be5818b1081595d59f3db2928fa",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8bd93215_795995ce",
         "filename": "lib/src/google_translator.dart",
         "patchSetId": 2
