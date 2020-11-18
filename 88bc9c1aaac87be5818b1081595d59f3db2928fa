@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "a6244b83_c7bb128c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-11-18T17:46:20Z",
+      "side": 1,
+      "message": "надо иметь наше внутренне описание с номером, когда будем отдавать в гитхаб, то там все засковшиться",
+      "parentUuid": "858a0d6f_84e5c4d1",
+      "range": {
+        "startLine": 7,
+        "startChar": 10,
+        "endLine": 7,
+        "endChar": 31
+      },
+      "revId": "88bc9c1aaac87be5818b1081595d59f3db2928fa",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8bd93215_795995ce",
         "filename": "lib/src/google_translator.dart",
         "patchSetId": 2
