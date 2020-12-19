@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "3f4f02b2_0d0efb0a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-12-19T10:16:03Z",
+      "side": 1,
+      "message": "я сначала подумал про GoogleDocs аналог Microsoft Word\n\nстоит написать полностью documentation",
+      "range": {
+        "startLine": 7,
+        "startChar": 51,
+        "endLine": 7,
+        "endChar": 55
+      },
+      "revId": "afef752eb9a1be346f579c94dd4cf9d4dff3b4f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "71d0fd3a_d78b1b26",
         "filename": "lib/src/langs/language.dart",
         "patchSetId": 1
@@ -13,6 +36,24 @@
       "writtenOn": "2020-12-18T22:17:06Z",
       "side": 1,
       "message": "остальные добавлю, если решим мёржить",
+      "revId": "afef752eb9a1be346f579c94dd4cf9d4dff3b4f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "65dc044a_a88e97ee",
+        "filename": "lib/src/langs/language.dart",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2020-12-19T10:16:03Z",
+      "side": 1,
+      "message": "давай, правильный ченж",
+      "parentUuid": "71d0fd3a_d78b1b26",
       "revId": "afef752eb9a1be346f579c94dd4cf9d4dff3b4f8",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": true
