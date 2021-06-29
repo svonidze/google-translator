@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "acf86f93_9e0a784a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2021-06-29T20:08:46Z",
+      "side": 1,
+      "message": "\u003e Откуда иформация, какие параметры для каких запросов необходимы?\nиз моих тестов, смотри https://review.gerrithub.io/c/svonidze/google-translator/+/519720/3/test/test.dart#153\n\n\u003e На мой взгляд \"To\" для Definition так же неактуален\nя все проверил перед тем как комитить",
+      "parentUuid": "46742ae1_e3839c3d",
+      "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "de470339_c66c1b80",
         "filename": "lib/src/google_translator.dart",
         "patchSetId": 2
@@ -31,6 +49,24 @@
       "writtenOn": "2021-06-29T14:06:23Z",
       "side": 1,
       "message": "final должен идти после static",
+      "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d67f37d4_c8867e97",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2021-06-29T20:08:46Z",
+      "side": 1,
+      "message": "я придерживался правила сначала\n- публичный статик \n- публичный\n- приват статик \n- приват \n\nразве не так?",
+      "parentUuid": "de470339_c66c1b80",
       "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -71,6 +107,30 @@
       "writtenOn": "2021-06-29T14:06:23Z",
       "side": 1,
       "message": "это точно необходимо?",
+      "range": {
+        "startLine": 8,
+        "startChar": 2,
+        "endLine": 10,
+        "endChar": 5
+      },
+      "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72f32f33_74ba1fde",
+        "filename": "test/test.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2021-06-29T20:08:46Z",
+      "side": 1,
+      "message": "да, setUp запускается перед каждым тестом, т.е. translator каждый раз новый",
+      "parentUuid": "55908211_355c65f5",
       "range": {
         "startLine": 8,
         "startChar": 2,
