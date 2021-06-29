@@ -1,0 +1,84 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46742ae1_e3839c3d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1018339
+      },
+      "writtenOn": "2021-06-29T14:06:23Z",
+      "side": 1,
+      "message": "Откуда иформация, какие параметры для каких запросов необходимы?\nНа мой взгляд \"To\" для Definition так же неактуален, как и для Examples, Synonyms",
+      "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de470339_c66c1b80",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1018339
+      },
+      "writtenOn": "2021-06-29T14:06:23Z",
+      "side": 1,
+      "message": "final должен идти после static",
+      "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b5dd56d_230ed663",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1018339
+      },
+      "writtenOn": "2021-06-29T14:06:23Z",
+      "side": 1,
+      "message": "Почему через класс?",
+      "range": {
+        "startLine": 120,
+        "startChar": 16,
+        "endLine": 120,
+        "endChar": 33
+      },
+      "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55908211_355c65f5",
+        "filename": "test/test.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1018339
+      },
+      "writtenOn": "2021-06-29T14:06:23Z",
+      "side": 1,
+      "message": "это точно необходимо?",
+      "range": {
+        "startLine": 8,
+        "startChar": 2,
+        "endLine": 10,
+        "endChar": 5
+      },
+      "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
