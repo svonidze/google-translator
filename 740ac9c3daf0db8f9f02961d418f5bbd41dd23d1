@@ -36,6 +36,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bef366cd_f5d01d41",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1018339
+      },
+      "writtenOn": "2021-06-29T22:29:09Z",
+      "side": 1,
+      "message": "я думал, может описание где есть",
+      "parentUuid": "acf86f93_9e0a784a",
+      "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "de470339_c66c1b80",
@@ -67,6 +85,24 @@
       "side": 1,
       "message": "я придерживался правила сначала\n- публичный статик \n- публичный\n- приват статик \n- приват \n\nразве не так?",
       "parentUuid": "de470339_c66c1b80",
+      "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "444e3091_f0e80d50",
+        "filename": "lib/src/google_translator.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1018339
+      },
+      "writtenOn": "2021-06-29T22:29:09Z",
+      "side": 1,
+      "message": "пожалуй так да",
+      "parentUuid": "d67f37d4_c8867e97",
       "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -131,6 +167,30 @@
       "side": 1,
       "message": "да, setUp запускается перед каждым тестом, т.е. translator каждый раз новый",
       "parentUuid": "55908211_355c65f5",
+      "range": {
+        "startLine": 8,
+        "startChar": 2,
+        "endLine": 10,
+        "endChar": 5
+      },
+      "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "732c3235_c93a38f7",
+        "filename": "test/test.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1018339
+      },
+      "writtenOn": "2021-06-29T22:29:09Z",
+      "side": 1,
+      "message": "тогда на 6-й строке лишняя инициализация)",
+      "parentUuid": "72f32f33_74ba1fde",
       "range": {
         "startLine": 8,
         "startChar": 2,
