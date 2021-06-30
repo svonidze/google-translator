@@ -199,6 +199,30 @@
       },
       "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3eebac1f_301efab7",
+        "filename": "test/test.dart",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2021-06-30T11:08:05Z",
+      "side": 1,
+      "message": "да, но к сожалению компилятор ругает без нее.",
+      "parentUuid": "732c3235_c93a38f7",
+      "range": {
+        "startLine": 8,
+        "startChar": 2,
+        "endLine": 10,
+        "endChar": 5
+      },
+      "revId": "740ac9c3daf0db8f9f02961d418f5bbd41dd23d1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
