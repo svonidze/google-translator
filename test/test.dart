@@ -3,10 +3,16 @@ import 'package:translator/src/langs/language.dart';
 import 'package:translator/translator.dart';
 
 void main() {
-  test("Conection test: Is Google Translate API working?", () async {
+  test("Connection test: Is Google Translate API working?", () async {
     var translator = GoogleTranslator();
     var t = await translator.getTranslation('test', to: 'pt');
     expect(t.text, 'teste');
+  });
+
+  test("hindsight", () async {
+    var translator = GoogleTranslator();
+    var t = await translator.getAltTranslation('hindsight', to: 'ru', from: 'en');
+    print(t.words);
   });
 
   test("Changing the base URL", () async {
