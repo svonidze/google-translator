@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ef4387a_9a9b8e09",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018339
+      },
+      "writtenOn": "2021-11-25T14:06:58Z",
+      "side": 1,
+      "message": "Я не нашёл изменений для файлов в клиенте, они планируются?",
+      "revId": "443db85cc664a58ad325ae8154bca3d49368069e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0fb76ae0_cdec150e",
+        "filename": "lib/src/exceptions/http_response_bad_data_exception.dart",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018339
+      },
+      "writtenOn": "2021-11-25T14:06:58Z",
+      "side": 1,
+      "message": "Имена файла и класса не совпадают",
+      "revId": "443db85cc664a58ad325ae8154bca3d49368069e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
