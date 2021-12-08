@@ -18,6 +18,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "87a11c4b_a09e33d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2021-12-08T11:37:05Z",
+      "side": 1,
+      "message": "да, но не в этом репе/ревью",
+      "parentUuid": "5ef4387a_9a9b8e09",
+      "revId": "443db85cc664a58ad325ae8154bca3d49368069e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0fb76ae0_cdec150e",
@@ -31,6 +49,24 @@
       "writtenOn": "2021-11-25T14:06:58Z",
       "side": 1,
       "message": "Имена файла и класса не совпадают",
+      "revId": "443db85cc664a58ad325ae8154bca3d49368069e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53903dbf_2d896168",
+        "filename": "lib/src/exceptions/http_response_bad_data_exception.dart",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2021-12-08T11:37:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0fb76ae0_cdec150e",
       "revId": "443db85cc664a58ad325ae8154bca3d49368069e",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
