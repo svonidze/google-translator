@@ -36,6 +36,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "39139916_5a7ebda6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2021-12-08T11:58:13Z",
+      "side": 1,
+      "message": "тут https://review.gerrithub.io/c/svonidze/google-translator/+/528977",
+      "parentUuid": "87a11c4b_a09e33d2",
+      "revId": "443db85cc664a58ad325ae8154bca3d49368069e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0fb76ae0_cdec150e",
