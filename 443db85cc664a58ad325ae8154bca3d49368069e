@@ -54,6 +54,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ec3cf56_ad9827c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018167
+      },
+      "writtenOn": "2021-12-08T12:15:32Z",
+      "side": 1,
+      "message": "ошибся, тут верно https://review.gerrithub.io/c/svonidze/shlang/+/528979",
+      "parentUuid": "39139916_5a7ebda6",
+      "revId": "443db85cc664a58ad325ae8154bca3d49368069e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0fb76ae0_cdec150e",
