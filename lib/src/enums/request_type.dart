@@ -4,4 +4,5 @@ enum RequestType {
   synonym,
   definition,
   example,
+  transcription,
 }
