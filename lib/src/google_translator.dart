@@ -20,6 +20,8 @@ part './model/example.dart';
 
 part './model/synonym.dart';
 
+part './model/transcription.dart';
+
 part './model/translation.dart';
 
 ///
@@ -83,6 +85,41 @@ class GoogleTranslator {
     final translated = sb.toString();
     return _Translation(
       translated,
+      source: sourceText,
+      sourceLanguage: _languageList[from],
+      targetLanguage: _languageList[to],
+    );
+  }
+
+  Future<Transcription> getTranscription(
+    String sourceText, {
+    String from = autoLanguage,
+    required String to,
+  }) async {
+    final HttpResponseData httpResponseData =
+        await _getData(sourceText, from, to: to, dataType: 't');
+
+    final jsonData = httpResponseData.jsonData;
+    String transcription = '';
+    try {
+      // The pronunciation/transliteration is at the end of the
+      // first translation block, typically jsonData[0][1][3]
+      final indexedData = jsonData[_map[RequestType.translation]];
+      if (indexedData is List && indexedData.length > 1) {
+        final lastEntry = indexedData.last;
+        if (lastEntry is List && lastEntry.length > 3 && lastEntry[3] is String) {
+          transcription = lastEntry[3] as String;
+        }
+      }
+    } catch (e) {
+      _throwBadDataException(
+        RequestType.translation,
+        httpResponseData,
+        innerException: e,
+      );
+    }
+    return _Transcription(
+      transcription,
       source: sourceText,
       sourceLanguage: _languageList[from],
       targetLanguage: _languageList[to],
